@@ -72,6 +72,8 @@ const BasicComponents = () => {
             <Button label={t("basicComponentsPage.examples.success")} colorScheme="success" modern />
             <Button label={t("basicComponentsPage.examples.purple")} colorScheme="purple" modern />
             <Button label={t("basicComponentsPage.examples.danger")} colorScheme="danger" modern icon="mdi-alert" />
+            <Button label="Disabled" disabled />
+<Button label="Pressed" pressed />
           </div>
         </Block>
 
